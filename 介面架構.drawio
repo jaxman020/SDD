@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T06:33:57.585Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gAMTe5x7UXhewS730t9g" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T06:40:38.632Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-0qGArQt7HuaaK409TNy" version="22.1.11" type="github">
   <diagram name="第 1 页" id="QnRPfCu3eUmTLWa5w4hk">
     <mxGraphModel dx="2348" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -307,6 +307,12 @@
           <mxGeometry y="0.5" width="32" height="32" relative="1" as="geometry">
             <mxPoint x="5" y="-16" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VLbX-8eJSxREoNwH45sv-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;File Storage&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="780" width="340" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="VLbX-8eJSxREoNwH45sv-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-3/50/folder-open-storage-file-organize-128.png" vertex="1" parent="VLbX-8eJSxREoNwH45sv-3">
+          <mxGeometry x="106" y="111" width="128" height="128" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
