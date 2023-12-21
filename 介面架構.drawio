@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T03:09:51.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Wa50fRmrK9uAo-hXToO2" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T03:16:00.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iVUkhHX0iSJZg7oS8_pS" version="22.1.11" type="github">
   <diagram name="第 1 页" id="QnRPfCu3eUmTLWa5w4hk">
     <mxGraphModel dx="1905" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -232,13 +232,13 @@
           <mxGeometry x="100" y="780" width="1450" height="350" as="geometry" />
         </mxCell>
         <mxCell id="7Vvmy7n1U0M0TT0j5RFg-107" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;QueryFile&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:10px;text-align:left;&quot;&gt;+ getFile(message):ArrayList&amp;lt;File&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:10px;text-align:left;&quot;&gt;+ sendFile(ArrayList&amp;lt;File&amp;gt;):boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:10px;text-align:left;&quot;&gt;- checkFileExists(&lt;span style=&quot;background-color: initial;&quot;&gt;ArrayList&amp;lt;String&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;):boolean&lt;/span&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;labelBackgroundColor=none;rounded=0;" parent="7Vvmy7n1U0M0TT0j5RFg-106" vertex="1">
-          <mxGeometry x="40" y="110" width="255" height="110" as="geometry" />
+          <mxGeometry x="22" y="100" width="255" height="110" as="geometry" />
         </mxCell>
         <mxCell id="7Vvmy7n1U0M0TT0j5RFg-109" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;getLegacySystemData&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getData(MessageDTO): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="7Vvmy7n1U0M0TT0j5RFg-106" vertex="1">
-          <mxGeometry x="700" y="250" width="190" height="70" as="geometry" />
+          <mxGeometry x="790" y="250" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7Vvmy7n1U0M0TT0j5RFg-112" value="MessageDTO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;" parent="7Vvmy7n1U0M0TT0j5RFg-106" vertex="1">
-          <mxGeometry x="1141" y="200" width="184" height="104" as="geometry" />
+          <mxGeometry x="1170" y="170" width="184" height="104" as="geometry" />
         </mxCell>
         <mxCell id="7Vvmy7n1U0M0TT0j5RFg-113" value="+ Trans_Id: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;" parent="7Vvmy7n1U0M0TT0j5RFg-112" vertex="1">
           <mxGeometry y="26" width="184" height="26" as="geometry" />
@@ -256,7 +256,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7Vvmy7n1U0M0TT0j5RFg-118" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;doQuery&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ doQuery(MessageDTO): String&lt;/span&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ doLargeQuery(MessageDTO): String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- setQueryResultToRDB(String): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- returnResultToLegacySystem(MessageDTO): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="7Vvmy7n1U0M0TT0j5RFg-106" vertex="1">
-          <mxGeometry x="690" y="72" width="310" height="108" as="geometry" />
+          <mxGeometry x="730" y="100" width="310" height="108" as="geometry" />
         </mxCell>
         <mxCell id="7Vvmy7n1U0M0TT0j5RFg-119" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="7Vvmy7n1U0M0TT0j5RFg-106" source="7Vvmy7n1U0M0TT0j5RFg-118" target="7Vvmy7n1U0M0TT0j5RFg-112" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
